@@ -1,0 +1,208 @@
+#sloContainer {
+  max-width: 100% !important;
+  font-family: "Raleway", Arial, Tahoma, sans-serif;
+}
+#sloContainer a {
+  text-decoration: none;
+}
+#tabContent .dropdown {
+  border: 1px #919191 solid;
+}
+#tabContent .dropdown .btn.dropdown-toggle {
+  width: 100%;
+  cursor: pointer;
+}
+.slo-dropdown {
+  cursor: pointer;
+}
+.slo-dropdown:hover {
+  background: #ebebeb;
+  cursor: pointer;
+}
+.slo-dropdown .slo-dropdown-menu {
+  background: #fff;
+  position: absolute;
+  /* left: 20%; */
+  width: 100%;
+  max-height: 500px;
+  overflow-y: auto;
+  background: #fff;
+  z-index: 2;
+  border-top: 2px #dd3333 solid;
+  font-size: 14px;
+}
+.slo-dropdown .slo-dropdown-menu .slo-dropdown-item {
+  /* border-top: 1px #757575 solid; */
+  padding: 4px 12px;
+}
+.slo-dropdown .slo-dropdown-menu .slo-dropdown-item:hover {
+  background: #dd3333;
+  color: #fff;
+}
+
+.slo-feed-content {
+  color: #000;
+  background: #fff;
+}
+.slo-table-header {
+  /* padding: 24px; */
+  color: #757575;
+  height: 92px;
+}
+.slo-table-header > div {
+  padding-bottom: 0px;
+}
+section.teams .mimicTable .cell {
+  padding: 8px;
+  background: #fff;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-align: center;
+}
+.slo-team-area, .slo-line-area {
+  padding: 0 !important;
+}
+.slo-team-name {
+  padding-left: 24px !important;
+  text-align: left !important;
+  height: 92px;
+}
+.slo-cell-line-data {
+  height: 70px !important;
+}
+section.sloSportData {
+  font-family: "Raleway", Arial, Tahoma, sans-serif;
+  max-width: 100% !important;
+}
+section.sloSportData .dateChanger {
+  /* background: #dd3333; */
+  /* color : #fff; */
+  /* padding: 15px; */
+  cursor: pointer;
+}
+.slo-hidden {
+  display: none;
+}
+
+.slo-spacer {
+  margin-bottom: 25px;
+  clear: both;
+}
+.slo-dropshadow {
+  -webkit-box-shadow: 0px 0px 19px -2px rgba(150,147,150,1);
+  -moz-box-shadow: 0px 0px 19px -2px rgba(150,147,150,1);
+  box-shadow: 0px 0px 19px -2px rgba(150,147,150,1);
+}
+.slo-filter-wrap {
+  text-align: center;
+  height: 55px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 769px) {
+  .slo-filter-wrap {
+    margin-bottom: 100px;
+  }
+}
+.filter-label {
+  font-size: 14px; 
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.slo-filter {
+  background: #fff;
+  border: 1px #ebebeb solid;
+}
+.slo-row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.slo-col-hack-4 {
+  width: calc(100% / 4);
+  float: left;
+}
+.slo-col-hack-5 {
+  display: inline-block;
+  width: calc(100% / 5);
+  /* float: left; */
+}
+.slo-allow-overflow {
+  overflow: auto;
+}
+.bookie-row {
+  min-width: 600px;
+}
+.sloTimeStamp {
+  background: #fff;
+  height: 30px;
+}
+.sloGameDateTime {
+  font-size: 10px;
+  color: #000;
+  font-weight: bold;
+}
+.sloUpdatedAt {
+  text-align: right;
+  font-style: italic;
+}
+.slo-val-box {
+  display: inline-block;
+  border: 1px #757575 solid;
+  height: 50px;
+  width: 50px;
+  font-size: 12px !important;
+  color: #000;
+}
+.slo-val-box-best {
+  border: 1px #09de3a solid;
+}
+.slo-vertical-center {
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+}
+.slo-header-logo-container {
+  padding: 0 10px !important;
+}
+.slo-texas-rotation-number {
+  font-size: 11px;
+  color: #626262;
+}
+.slo-team-logo {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 10px;
+  margin-left: 5px;
+}
+/* Extras */
+.slo-border-top {
+  border-right: 1px #ebebeb solid;
+  border-left: 1px #ebebeb solid;
+  border-top: 1px #ebebeb solid;
+}
+.slo-border-bottom {
+  border-right: 1px #ebebeb solid;
+  border-left: 1px #ebebeb solid;
+  border-bottom: 1px #ebebeb solid;
+  padding-bottom: 12px;
+}
+.slo-border-side-only {
+  border-right: 1px #ebebeb solid;
+  border-left: 1px #ebebeb solid;
+}
+
+.slo-btn-csv {
+  float: right;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  text-decoration: none !important;
+  color: #fff !important;
+  padding: 8px;
+  background: #DD3333;
+  width: 160px;
+  margin: 10px 8px !important;
+}
