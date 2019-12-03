@@ -39,7 +39,8 @@ Class Plugin {
 
   function run()
   {
-    $admin = new AdminController;
+    $admin = new \src\controllers\AdminController;
+    $changes = new \src\controllers\ChangesController;
   }
 
 }
